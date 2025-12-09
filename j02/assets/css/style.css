@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+/* @font-face {
+  font-family: davat;
+  src: url(./../fonts/Davat.ttf);
+}
+
+@font-face {
+  font-family: baran;
+  src: url(./../fonts/Afra\ .ttf);
+} */
+
+/* @font-face {
+  font-family: vazir;
+  src: url(./../fonts/Vazir.ttf),
+       url(./../fonts/Vazir.eot),
+       url(./../fonts/Vazir.woff),
+       url(./../fonts/Vazir.woff2);
+}*/
+
+*{
+  font-family: Vazirmatn;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-size: 45px;
+  background-color: rgb(237, 88, 118);
+  text-decoration: line-through;
+}
