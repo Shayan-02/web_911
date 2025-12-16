@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  cursor: text;
+}
+
+/* p{
+  /* cursor: pointer; */
+  /* cursor: wait; */
+  /* cursor: help; */
+  /* cursor: zoom-in;
+} */
+
+p{
+  color: #f00;
+  /* background: linear-gradient(135deg, rgb(100, 121, 255), rgb(250, 148, 65)); */
+background: linear-gradient(134deg, rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 61%);
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: sans;
+  src        : url(./../fonts/Iranian\ Sans.ttf);
+}
+
+* {
+  font-family    : sans;
+  text-decoration: none;
+  list-style     : none;
+}
+
+a {
+  border: 1px solid black;
+}
+
+#pa {
+  width: 50%;
+  /* margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px; */
+  /* margin: 30px 50px 30px 50px; */
+  margin: 30px 50px;
+  padding: 20px 40px;
+  border: 1px solid black;
+}

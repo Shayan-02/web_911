@@ -1,0 +1,33 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf),
+         url(./../fonts/Vazir.eot),
+         url(./../fonts/Vazir.woff),
+         url(./../fonts/Vazir.woff2);
+}
+
+*{
+    direction: rtl;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: vazir;
+}
+
+.container{
+    text-align: center;
+    height: 60px;
+    background-color: rgb(255, 228, 248);
+}
+
+a{
+    color: gray;
+    margin: 15px 10px;
+    display: inline-block;
+}
+
+.login{
+    color: cornflowerblue;
+    font-size: 50px;
+}
