@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  direction: rtl;
+}
+
+.container{
+  display: flex;
+  height: 500px;
+}
+
+.right{
+  width: 50%;
+  background-color: #21AA58;
+}
+
+.left{
+  width: 50%;
+  background-image: url(./../images/intro_desktop.jpg);
+  background-size: cover;
+}
