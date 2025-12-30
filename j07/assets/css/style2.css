@@ -1,0 +1,75 @@
+/* اضافه کردن فونت */
+
+@font-face {
+  font-family: iran;
+  src: url(./../fonts/Iranian\ Sans.ttf);
+}
+
+/* استایل های اولیه */
+
+*{
+  font-family: iran;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  direction: rtl;
+}
+
+  /* a{
+    color: #444;
+  } */
+
+/* start header */
+
+nav{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #777;
+}
+
+.snap-nav{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 90px;
+  gap: 25px;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 25px;
+  /* width: 50%;
+  justify-content: space-between; */
+}
+
+.item-link{
+  color: #333;
+  font-weight: 500;
+}
+
+/* end header */
+/* ---------------------------- */
+/* start main */
+
+/* hero section */
+
+.hero{
+  height: 500px;
+  display: flex;
+}
+
+.right{
+  width: 50%;
+  background-color: #21aa58;
+}
+
+.left{
+  width: 50%;
+  background-image: url(./../images/intro.jpg);
+  background-size: cover;
+}
+
+
+/* end main */
+/* ---------------------------- */
