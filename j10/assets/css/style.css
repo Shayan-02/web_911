@@ -1,0 +1,107 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+    font-family: vazir;
+}
+
+/* header */
+
+/* nav{
+    display: flex;
+    justify-content: center;
+} */
+
+/* menu */
+
+.container{
+    height: 80px;
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 500;
+    gap: 20px;
+    box-shadow: 2px 2px 1px 1px  rgba(0, 0, 0, 0.5);
+}
+
+#menu{
+    display: flex;
+    gap: 20px;
+}
+
+.item-link{
+    color: #444;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* sub menu */
+
+.box{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    min-width: 170px;
+}
+
+.box #sub-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-link:hover{
+    color: #22aa21;
+    transition: color 0.5s ease-in-out;
+}
+
+.sub-link{
+    color: #444;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.drop{
+    position: relative;
+}
+
+.drop:hover .box{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+/* finish header */
+
+/* main */
+
+.jabeh{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: #22aa21;
+}
+
+.box2{
+    background-color: #fff;
+}
