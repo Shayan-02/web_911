@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+  display: grid;
+  gap: 30px 10px;
+  width: 70vw;
+  height: 50vh;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* column-count: 4; */
+  /* column-width: 15vw; */
+  /* column-rule: 1px solid black; */
+  /* justify-items: center;
+  align-items: center; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
