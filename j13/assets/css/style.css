@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .odd{
+    color: cornflowerblue;
+    background-color: rgb(255, 171, 213);
+}
+
+.even{
+    color: coral;
+    background-color: rgb(203, 221, 255);
+} */
+
+/* h1:nth-child(odd){
+    color: cornflowerblue;
+    background-color: rgb(255, 171, 213);
+}
+
+h1:nth-child(even){
+    color: coral;
+    background-color: rgb(203, 221, 255);
+} */
+
+:nth-child(3n) {
+    color: coral;
+    background-color: rgb(203, 221, 255);
+}
+
+:nth-child(3n + 1) {
+    color: cornflowerblue;
+    background-color: rgb(255, 171, 213);
+}
+
+:nth-child(3n+2){
+    color: crimson;
+    background-color: darksalmon;
+}
+
+/* h1:first-child{
+    color: cornflowerblue;
+    background-color: rgb(255, 171, 213);
+}
+
+h1:last-child{
+    color: coral;
+    background-color: rgb(203, 221, 255);
+} */
